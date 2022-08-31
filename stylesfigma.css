@@ -1,0 +1,389 @@
+
+body{
+    margin-left: 120px;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1080px;
+    margin: auto;
+    /* font-family: monospace; */
+}
+.header{
+display: flex;
+text-transform: uppercase;
+background: white;
+text-align: center;
+align-items: center;
+
+}
+#green{
+    color: green;
+}
+img{
+    height: 40px;
+    width: 40px;
+    padding-right: 5px;
+}
+.header p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.header h2{
+    background: red;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.second p{
+    font-family:"kuunari";
+        src: url("@/assets/font/Kuunari_Complete/Kuunari Complete/Mika Melvas - Kuunari Regular Compressed.otf");
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 80px;
+    line-height: 65px;
+}
+#data{
+    color: green;
+}
+.main h3{
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+}
+.spon{
+display: flex;
+justify-content: space-between;
+}
+.one{
+width: 80px;
+height: 80px;
+}
+.two{
+width: 80px;
+height: 80px;
+}
+.three{
+width: 180px;
+height: 80px;
+}
+.four{
+width: 80px;
+height: 80px;
+}
+.five{
+width: 200px;
+height: 80px;
+}
+.six {
+width: 80px;
+height: 80px;
+/* padding-right: 20px; */
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.third p{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;  
+}
+#sect{
+    color: green;
+}
+#text{
+    font-weight: normal;
+    font-size: initial;
+}
+.fifth{
+    display: flex;
+    justify-content: space-between;
+}
+.fifth div{
+    height: 200px;
+    width: 320px;
+    background-color: rgba(1,255,1, 0.09);
+    border: solid rgb(168, 218, 168) 2px;
+    border-radius: 5px;
+    padding: 10px 5px 10px 25px;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.fifth img{
+    width: 80px;
+    height: 100px;
+}
+.sixth{
+    display: block;
+}
+.sixth h1{
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: green;
+}
+.sixth div{
+    display: flex; 
+    justify-content: space-between;
+}
+.sixth div div{
+    height: 200px;
+    width: 300px;
+    display: block;
+    background-color: rgba(1, 255, 1, 0.09);
+    border: solid rgb(168, 218, 168) 2px;
+    border-radius: 5px;
+    padding:5px 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.sixth div .thrix{ 
+    width: 380px;
+}
+.sixth div div ul{
+    font-weight: initial;
+}
+.seventh{
+    display: block;
+    text-transform: uppercase;
+} 
+.seventh .first{
+    display: flex;
+    justify-content: space-between;
+}
+.seventh .first h2{
+    color: green;
+    font-weight: bold;
+}
+.grid-containor-1{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    grid-column-gap: 10px;
+    grid-column-end: initial;
+    width: 100%;
+}
+.col{
+    height: 300px;
+    padding: 5px;
+    grid-template-rows: 280px;
+    box-sizing: border-box;
+    position: relative;
+    /* z-index: -1; */
+}
+.col div{
+    position: absolute;
+    top: 210px;
+    left: 22px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.col .col-2{
+    position: absolute;
+    top: 220px;
+}
+.col div p1{
+    font-size: larger;
+}
+.col .col-2 p1{
+    font-weight: normal;
+    font-size: 16px;
+    padding-bottom: 3px;
+}
+.col div p2{
+    font-size: 12px;
+    font-weight: normal;
+    background-color: white;
+    color: green;
+    padding: 2px;
+    margin: 2px;
+}
+.col img{
+    width: 100%;
+    height: 100%;
+}
+.com{
+    height: 300px;
+    padding: 5px;
+    grid-template-rows: 280px;
+    box-sizing: border-box;
+    height: 300px;
+    padding: 5px;
+}
+.com img {
+    width: 100%;
+    height: 100%;
+}
+.an-containor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    padding: 5px;
+    grid-column-end: initial;
+    position: relative;
+}
+.an-containor div .an-1{ 
+    position: absolute;
+    top: 225px;
+    left: 22px;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.an-containor div .an-1 p1{
+    font-weight: bold;
+    font-size: 16px;
+}
+.an-containor div .an-1 p2{
+    font-size: 12px;
+    font-weight: normal;
+    background-color: white;
+    color: green;
+    margin: 2px;
+    padding: 2px;
+}
+#lower case{
+    text-transform: lowercase;
+    color: white;
+}
+.an-containor div .an-2{
+    position: absolute;
+    top: 225px;
+    left: 382px;
+    /* right: ; */
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.an-containor div .an-2 p1{
+    font-weight: bold;
+    font-size: 16px;
+}
+.an-containor div .an-2  p2{
+    font-size: 12px;
+    font-weight: normal;
+    background-color: white;
+    color: green;
+    margin: 2px;
+    padding: 2px;
+}
+.an-containor div .an-3{
+    position: absolute;
+    top: 204px;
+    left: 745px;
+    /* right: ; */
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+.an-containor div .an-3 p1 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.an-containor div .an-3 p2 {
+    font-size: 12px;
+    font-weight: normal;
+    background-color: white;
+    color: green;
+    margin: 2px;
+    padding: 2px;
+}
+.footer{
+    text-transform: uppercase;
+    position: relative;
+}
+.footer-1{
+    line-height: 7px;
+    letter-spacing: -1px;
+    font-weight: bolder;
+}
+.footer #cont{
+    color: green;
+}
+.footer-2{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.footer img{
+    width: 20px;
+    height: 25px;
+    margin: 10px;
+}
+.sil{
+    color: gray;
+}
+.bol {
+    font-weight: bold;
+}
+
+.footer-3 {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.footer-3 img {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
+.footer-4{
+    display: flex;
+    color: gray;
+}
+.footer-4 img{
+    color: gray;
+    width: 30px;
+    height: 22px;
+}
+.footer-5{
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    top: 120px;
+    left: 650px;
+}
+input{
+    color: black;
+    background-color:aliceblue;
+    width: 300px;
+    height: 25px;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+}
+textarea{
+    color: black;
+    background-color: aliceblue;
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+}
+#button{
+    width: 310px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding:10px 50px 25px 50px;
+}
+.footer-6{
+    color: gray;
+    font-size: medium;
+    align-items: center;
+    text-transform: capitalize;
+    position: absolute;
+    top: 510px;
+    left: 370px;
+}
+
